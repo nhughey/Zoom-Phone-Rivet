@@ -24,7 +24,7 @@ const phoneClient = new PhoneOAuthClient({
   clientSecret: CLIENT_SECRET,
   webhooksSecretToken: WEBHOOK_SECRET_TOKEN,
   installerOptions: {
-    redirectUri: "https://3a3f-63-233-134-131.ngrok-free.app",
+    redirectUri: "  https://d34c-71-218-106-194.ngrok-free.app",
     stateStore: "abc",
   },
   port: parseInt(OAUTH_PORT, 10),
