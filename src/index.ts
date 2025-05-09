@@ -1,7 +1,7 @@
 // src/index.ts
 import { PhoneOAuthClient } from "@zoom/rivet/phone";
 import dotenv from "dotenv";
-import { handleRecordingCompleted } from "./recordingHandler";
+// import { handleRecordingCompleted } from "./recordingHandler";
 
 dotenv.config();
 
@@ -36,7 +36,8 @@ const phoneClient = new PhoneOAuthClient({
       "phone.recording_completed",
       async ({ payload }) => {
         try {
-          await handleRecordingCompleted(payload);
+          // await handleRecordingCompleted(payload);
+          console
         } catch (err) {
           console.error("Error in recording handler:", err);
         }
